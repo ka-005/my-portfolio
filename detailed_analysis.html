@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ヘルナンデス vs ソト 成績分析プロジェクト</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #000077;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #FFF;
+        }
+
+        h2, h3 {
+            color: #333;
+        }
+
+        h4{
+            color: #FFF;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            padding: 5px;
+        }
+        .highlight {
+            color: #e67e22;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #000077;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+                /* 画像とテキストを横並びにするためのスタイル */
+                .player-analysis {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .player-analysis img {
+            width: 400px; /* 画像のサイズ調整 */
+            height: auto;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ヘルナンデス vs ソト 成績分析プロジェクト</h1>
+        <h4>選手の成績と今後の予測に基づく意思決定支援</h4>
+    </header>
+
+    <section>
+        <h2>プロジェクト概要</h2>
+        <p>このプロジェクトでは、MLB選手テオスカーヘルナンデスとフアンソトの成績を比較し、今後数年のパフォーマンスを予測します。<br>
+            特に、ヘルナンデスの年齢に伴う衰えの兆候を調べ、どちらの選手がドジャースにとって有益かを評価します。</p>
+    </section>
+
+    <section>
+        <h2>選手分析</h2>
+        <!-- ヘルナンデスの分析 -->
+        <div class="player-analysis">
+            <div>
+                <h3>ヘルナンデス（Teoscar Hernández）</h3>
+                <p>ヘルナンデスは現在32歳で、年齢に伴う衰えが見られる可能性があります。<br>
+                    以下の指標を基に分析を行いました：</p>
+                <ul>
+                    <li><strong>BABIP(運の要素)</strong>: 年齢と共に低下している兆候があり、<br>運が悪い結果が反映されている可能性があります。</li>
+                    <li><strong>ISO(長打力)</strong>: 一部の年で急激な減少が見られ、パワーの衰えが指摘されます。</li>
+                    <li><strong>K%（三振率）</strong>: 三振が増加し、選球眼の低下が伺えます。</li>
+                </ul>
+                <p class="highlight">今後数年の成績は減少傾向が予測されるため、衰えが進行している可能性があります。</p>
+            </div>
+            <img src="hernandez.jpg" alt="Teoscar Hernández">
+        </div>
+
+        <!-- ソトの分析 -->
+        <div class="player-analysis">
+            <div>
+                <h3>ソト（Juan Soto）</h3>
+                <p>ソトは26歳と非常に若い選手で、安定したパフォーマンスが期待されます。<br>
+                    彼の成績は以下の通りです：</p>
+                <ul>
+                    <li><strong>BABIP(運の要素)</strong>: 安定しており、過去の実績に基づく予測が現実となる可能性が高いです。</li>
+                    <li><strong>OPS(出塁率+長打率)</strong>: 常に高い出塁率と長打率を維持しており、チームへの貢献が見込まれます。</li>
+                    <li><strong>BB%(四球率)</strong>: 高い選球眼を示し、安定した出塁を維持しています。</li>
+                </ul>
+                <p class="highlight">今後数年も高いパフォーマンスを期待できる選手です。</p>
+                </div>
+                <img src="soto.jpg" alt="Juan Soto">
+            </div>
+    </section>
+
+    <section>
+        <h2>今後の予測と意思決定</h2>
+        <p>ヘルナンデスは衰えが予測されるため、長期的な投資としてはリスクが高い可能性があります。<br>
+            一方、ソトは若く安定しており、今後の数年間は高い成績を維持することが期待されます。</p>
+        <p>したがって、ソトを選ぶことが長期的なチーム構築において有益であると考えられます。</p>
+    </section>
+
+    <section>
+        <h2>ビジネスで活かせるスキル</h2>
+        <p>このプロジェクトで得られるスキルは、ビジネスにおいても非常に有用です。具体的には以下のスキルを習得可能です。：</p>
+        <ul>
+            <li><strong>データ収集とクリーニング</strong>: SQLやPythonを使ってデータを整備し、必要な情報を抽出する能力。</li>
+            <li><strong>データ可視化</strong>: MatplotlibやSeabornを使用し、グラフでデータの傾向を視覚的に表現する能力。</li>
+            <li><strong>予測分析</strong>: 過去のデータを基に将来のパフォーマンスを予測する能力。</li>
+            <li><strong>意思決定支援</strong>: 複数の指標を基に、最適な選択肢を提供する能力。</li>
+            <li><strong>リスク分析と最適化</strong>: データを活用してリスクを最小化し、最適な戦略を提案する能力。</li>
+        </ul>
+        <h3>これらのスキルは、ビジネスにおいても、売上予測、投資判断、リスク管理、戦略的意思決定に活かすことができます。<br>
+        今後は業務効率化だけでなく、データに基づいて意思決定の出来る人材を目指しています。</h3>
+    </section>
+
+    <footer>
+        <h4>© 2024 ヘルナンデス vs ソト 成績分析プロジェクト</h4>
+    </footer>
+
+</body>
+</html>
